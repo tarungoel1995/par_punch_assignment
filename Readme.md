@@ -31,3 +31,5 @@ Steps: 1. go to stack directory -> environment1 ->dummyservice
        3. Run terraform init
        4. Run terraform plan
        5. Run terraform apply
+
+Notes: For now I have added option for both public and private access which can be configured as per use case.
