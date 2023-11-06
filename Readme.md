@@ -16,7 +16,7 @@ Steps: 1. go to stack directory -> environment1 ->baseinfra
        5. Run terraform apply
 
        
-2. EKS Cluster with Calico CNI to enable 2 CIDR in the cluster (1 for worker nodes, 1 for pods)
+2. EKS Cluster with Calico CNI to enable 2 CIDR in the cluster (1 for worker nodes, 1 for pods) and required add-ons
 
 Steps: 1. go to stack directory -> environment1 ->eks
        2. Do the required changes in launch.tf
