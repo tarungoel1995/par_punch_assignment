@@ -23,6 +23,7 @@ module "eks" {
   desired_capacity            = "3"
   max_size                    = "10"
   min_size                    = "1"
+  calico_cni_cidr             = "10.244.0.0/16"
 }
 
 

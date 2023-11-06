@@ -70,7 +70,7 @@ resource "kubectl_manifest" "calico-installation" {
       calicoNetwork:
         bgp: Disabled
         ipPools:
-        - cidr: 10.244.0.0/16
+        - cidr: ${var.calico_cni_cidr}
           encapsulation: VXLAN
           natOutgoing: Enabled
           nodeSelector: all()

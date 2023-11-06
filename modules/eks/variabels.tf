@@ -202,3 +202,8 @@ variable "addons" {
     }
   ]
 }
+
+variable "calico_cni_cidr" {
+  default     = "10.244.0.0/16"
+  description = "The K8s namespace in which the node-problem-detector service account has been created"
+}
