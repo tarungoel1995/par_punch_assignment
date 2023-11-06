@@ -3,6 +3,7 @@ Prerequisite.
 1. AWS user with required access to run Terraform.
 2. S3 bucket to store the terraform state.
 3. export AWS_PROFILE=<Profile name>
+4. Terraform version v1.5.7
 
 Steps to run:
 
@@ -15,7 +16,7 @@ Steps: 1. go to stack directory -> environment1 ->baseinfra
        5. Run terraform apply
 
        
-2. EKS Cluster with Calico CNI
+2. EKS Cluster with Calico CNI to enable 2 CIDR in the cluster (1 for worker nodes, 1 for pods)
 
 Steps: 1. go to stack directory -> environment1 ->eks
        2. Do the required changes in launch.tf
