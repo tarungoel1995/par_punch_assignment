@@ -13,6 +13,8 @@ Steps: 1. go to stack directory -> environment1 ->baseinfra
        3. Run terraform init
        4. Run terraform plan
        5. Run terraform apply
+
+       
 2. EKS Cluster with Calico CNI
 
 Steps: 1. go to stack directory -> environment1 ->eks
